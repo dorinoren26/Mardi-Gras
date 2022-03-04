@@ -1,0 +1,53 @@
+.form-control {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  background: rgba(255, 255, 255, 0.603);
+  border-radius: 12px;
+  border-color: white;
+  background-color: #9453a671;
+  color: #9453a6cb;
+}
+
+.form-control:hover {
+  color: $primary;
+  background-color: #9453a636;
+  border-color: #9453a6a6;
+  box-shadow: 0 0 0 0.25rem #9453a681;
+}
+
+.btn-primary:hover {
+  color: $primary;
+  background-color: #9453a636;
+  border-color: #9453a6a6;
+  box-shadow: 0 0 0 0.25rem #9453a681;
+}
+.btn-primary:focus,
+.btn-primary {
+  border-color: #9453a6a6;
+  background-color: #9453a636;
+  box-shadow: 0 0 0 0.25rem #9453a681;
+}
+.form-control:focus {
+  box-shadow: 0 0 0 0.25rem #9453a681;
+  border-color: #9453a6a6;
+}
+
+input.form-control::placeholder,
+textarea.form-control {
+  color: transparent;
+}
+
+@media screen and (max-width: 600px) {
+  .form-label {
+    display: none;
+  }
+  input.form-control::placeholder,
+  textarea.form-control {
+    color: $primary;
+  }
+}
+.form-box {
+  margin: 2em;
+}
+.h-form {
+  padding: 10px;
+}

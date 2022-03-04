@@ -1,0 +1,72 @@
+$primary: #9453a6;
+$secondary: #8cbf3f;
+$success: #f2cc0f;
+$info: #f2f2f2;
+$warning: #0d0d0d;
+
+h1,
+h2,
+h3 {
+  font-family: "Henny Penny";
+  font-family: "Pattaya";
+}
+h1 {
+  font-size: 70px;
+  text-shadow: 0 1px $success, -1px 0 $secondary, -1px 2px$success,
+    -2px 1px $secondary, -2px 3px $success, -3px 2px $secondary,
+    -3px 4px $success, -4px 3px $secondary, -4px 5px $success,
+    -5px 4px $secondary, -5px 6px $success, -6px 5px $secondary,
+    -6px 7px $success, -7px 6px $secondary, -7px 8px $success,
+    -8px 7px $secondary;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+.logo {
+  width: 65px;
+  height: 65px;
+  display: inline-block;
+}
+
+.navbar {
+  opacity: 0.98;
+  .nav-item {
+    background-color: $secondary;
+    border-radius: 5%;
+    margin: 10px;
+  }
+  .nav-item:hover {
+    background-color: $primary;
+  }
+}
+.navbar {
+  animation: pulse 5s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    background-color: $info;
+  }
+  25% {
+    background-color: $primary;
+  }
+  50% {
+    background-color: $success;
+  }
+  75% {
+    background-color: $secondary;
+  }
+  100% {
+    background-color: $info;
+  }
+}
+.h2 {
+  font-size: 50px;
+  color: #ffffff;
+  text-shadow: 0 1px 0 #cccccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9,
+    0 5px 0 #aaa, 0 6px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1),
+    0 1px 3px rgba(0, 0, 0, 0.3), 0 3px 5px rgba(0, 0, 0, 0.2),
+    0 5px 10px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.2),
+    0 20px 20px rgba(0, 0, 0, 0.15);
+}

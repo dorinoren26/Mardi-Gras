@@ -1,0 +1,709 @@
+h1,
+h2,
+h3 {
+  font-family: "Henny Penny";
+  font-family: "Pattaya";
+}
+
+h1 {
+  font-size: 70px;
+  text-shadow: 0 1px #f2cc0f, -1px 0 #8cbf3f, -1px 2px #f2cc0f, -2px 1px #8cbf3f, -2px 3px #f2cc0f, -3px 2px #8cbf3f, -3px 4px #f2cc0f, -4px 3px #8cbf3f, -4px 5px #f2cc0f, -5px 4px #8cbf3f, -5px 6px #f2cc0f, -6px 5px #8cbf3f, -6px 7px #f2cc0f, -7px 6px #8cbf3f, -7px 8px #f2cc0f, -8px 7px #8cbf3f;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.logo {
+  width: 65px;
+  height: 65px;
+  display: inline-block;
+}
+
+.navbar {
+  opacity: 0.98;
+}
+
+.navbar .nav-item {
+  background-color: #8cbf3f;
+  border-radius: 5%;
+  margin: 10px;
+}
+
+.navbar .nav-item:hover {
+  background-color: #9453a6;
+}
+
+.navbar {
+  -webkit-animation: pulse 5s infinite;
+          animation: pulse 5s infinite;
+}
+
+@-webkit-keyframes pulse {
+  0% {
+    background-color: #f2f2f2;
+  }
+  25% {
+    background-color: #9453a6;
+  }
+  50% {
+    background-color: #f2cc0f;
+  }
+  75% {
+    background-color: #8cbf3f;
+  }
+  100% {
+    background-color: #f2f2f2;
+  }
+}
+
+@keyframes pulse {
+  0% {
+    background-color: #f2f2f2;
+  }
+  25% {
+    background-color: #9453a6;
+  }
+  50% {
+    background-color: #f2cc0f;
+  }
+  75% {
+    background-color: #8cbf3f;
+  }
+  100% {
+    background-color: #f2f2f2;
+  }
+}
+
+.h2 {
+  font-size: 50px;
+  color: #ffffff;
+  text-shadow: 0 1px 0 #cccccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.3), 0 3px 5px rgba(0, 0, 0, 0.2), 0 5px 10px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.2), 0 20px 20px rgba(0, 0, 0, 0.15);
+}
+
+body {
+  background-color: #c4a174bb;
+  padding: 0%;
+  margin: 0%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+}
+
+.h-Sponsors {
+  padding-top: 12%;
+  font-size: 70px;
+  text-shadow: 0 1px #f2cc0f, -1px 0 #8cbf3f, -1px 2px #f2cc0f, -2px 1px #8cbf3f, -2px 3px #f2cc0f, -3px 2px #8cbf3f, -3px 4px #f2cc0f, -4px 3px #8cbf3f, -4px 5px #f2cc0f, -5px 4px #8cbf3f, -5px 6px #f2cc0f, -6px 5px #8cbf3f, -6px 7px #f2cc0f, -7px 6px #8cbf3f, -7px 8px #f2cc0f, -8px 7px #8cbf3f;
+}
+
+.h-Sponsors {
+  padding-top: 5%;
+  justify-items: center;
+}
+
+.animation {
+  display: block;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+          box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  background: rgba(255, 255, 255, 0.445);
+  -webkit-animation-name: LeftToRight;
+          animation-name: LeftToRight;
+  border-radius: 12px;
+  -webkit-animation-duration: 1.5s;
+          animation-duration: 1.5s;
+}
+
+.p-2 {
+  -webkit-animation-name: RightToLeft;
+          animation-name: RightToLeft;
+}
+
+@-webkit-keyframes LeftToRight {
+  0% {
+    opacity: 0.2;
+    -webkit-transform: translateX(-30%);
+            transform: translateX(-30%);
+    background-color: #f2cc0f;
+  }
+  50% {
+    opacity: 0.4;
+    -webkit-transform: translateX(20%);
+            transform: translateX(20%);
+    background-color: #8cbf3f;
+  }
+  100% {
+    opacity: 0.6;
+    -webkit-transform: translateX(0%);
+            transform: translateX(0%);
+    background-color: #9453a6;
+  }
+}
+
+@keyframes LeftToRight {
+  0% {
+    opacity: 0.2;
+    -webkit-transform: translateX(-30%);
+            transform: translateX(-30%);
+    background-color: #f2cc0f;
+  }
+  50% {
+    opacity: 0.4;
+    -webkit-transform: translateX(20%);
+            transform: translateX(20%);
+    background-color: #8cbf3f;
+  }
+  100% {
+    opacity: 0.6;
+    -webkit-transform: translateX(0%);
+            transform: translateX(0%);
+    background-color: #9453a6;
+  }
+}
+
+@-webkit-keyframes RightToLeft {
+  0% {
+    opacity: 0.2;
+    -webkit-transform: translateX(30%);
+            transform: translateX(30%);
+    background-color: #9453a6;
+  }
+  50% {
+    opacity: 0.4;
+    -webkit-transform: translateX(-20%);
+            transform: translateX(-20%);
+    background-color: #8cbf3f;
+  }
+  100% {
+    opacity: 0.6;
+    -webkit-transform: translateX(0%);
+            transform: translateX(0%);
+    background-color: #f2cc0f;
+  }
+}
+
+@keyframes RightToLeft {
+  0% {
+    opacity: 0.2;
+    -webkit-transform: translateX(30%);
+            transform: translateX(30%);
+    background-color: #9453a6;
+  }
+  50% {
+    opacity: 0.4;
+    -webkit-transform: translateX(-20%);
+            transform: translateX(-20%);
+    background-color: #8cbf3f;
+  }
+  100% {
+    opacity: 0.6;
+    -webkit-transform: translateX(0%);
+            transform: translateX(0%);
+    background-color: #f2cc0f;
+  }
+}
+
+.sec {
+  background-image: url(https://static01.nyt.com/images/2020/04/12/us/00virus-neworleans-01/merlin_169528818_5d8af8ab-5274-4491-911f-765aa389c94d-superJumbo.jpg);
+  height: 880px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  -webkit-animation: slider 20s ease 3ms infinite;
+          animation: slider 20s ease 3ms infinite;
+  padding-top: 20em;
+}
+
+@media screen and (max-width: 600px) {
+  .sec {
+    height: 500px;
+    padding-top: 15em;
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+}
+
+@-webkit-keyframes slider {
+  0% {
+    background-image: url(https://static01.nyt.com/images/2020/04/12/us/00virus-neworleans-01/merlin_169528818_5d8af8ab-5274-4491-911f-765aa389c94d-superJumbo.jpg);
+  }
+  25% {
+    background-image: url(https://images.7news.com.au/publication/C-5382627/00bc2e98cd5397129f84805fe5dfa930f305a2e3.jpg);
+  }
+  50% {
+    background-image: url(https://www.mardigrasneworleans.com/templates/client/imagesNew/home-header1.jpg.pagespeed.ce.WQQjjRhEG-.jpg);
+  }
+  75% {
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/3/3d/KosmicFrenchmenPurpleFaceMardiGras2009.JPG);
+  }
+  100% {
+    background-image: url(https://cdn.theculturetrip.com/wp-content/uploads/2017/09/venices-carnivale-2-public-domain-pixabay-e1505377003857.jpg);
+  }
+}
+
+@keyframes slider {
+  0% {
+    background-image: url(https://static01.nyt.com/images/2020/04/12/us/00virus-neworleans-01/merlin_169528818_5d8af8ab-5274-4491-911f-765aa389c94d-superJumbo.jpg);
+  }
+  25% {
+    background-image: url(https://images.7news.com.au/publication/C-5382627/00bc2e98cd5397129f84805fe5dfa930f305a2e3.jpg);
+  }
+  50% {
+    background-image: url(https://www.mardigrasneworleans.com/templates/client/imagesNew/home-header1.jpg.pagespeed.ce.WQQjjRhEG-.jpg);
+  }
+  75% {
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/3/3d/KosmicFrenchmenPurpleFaceMardiGras2009.JPG);
+  }
+  100% {
+    background-image: url(https://cdn.theculturetrip.com/wp-content/uploads/2017/09/venices-carnivale-2-public-domain-pixabay-e1505377003857.jpg);
+  }
+}
+
+.box {
+  background-color: aliceblue;
+  opacity: 0.9;
+  border-radius: 5px;
+  border: solid 1px black;
+  -webkit-box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+          box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+}
+
+.Sponsors {
+  height: 300px;
+  background-color: aliceblue;
+  background-image: url(https://static01.nyt.com/images/2020/04/12/us/00virus-neworleans-01/merlin_169528818_5d8af8ab-5274-4491-911f-765aa389c94d-superJumbo.jpg);
+  background-attachment: fixed;
+}
+
+.element {
+  -webkit-animation: pulse 5s infinite;
+          animation: pulse 5s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    background-color: #f2f2f2;
+  }
+  25% {
+    background-color: #9453a6;
+  }
+  50% {
+    background-color: #f2cc0f;
+  }
+  75% {
+    background-color: #8cbf3f;
+  }
+  100% {
+    background-color: #f2f2f2;
+  }
+}
+
+.Sponsors-box div {
+  border-radius: 30px;
+  -webkit-transition: width 1s, height 1s, -webkit-box-shadow 1s;
+  transition: width 1s, height 1s, -webkit-box-shadow 1s;
+  transition: box-shadow 1s, width 1s, height 1s;
+  transition: box-shadow 1s, width 1s, height 1s, -webkit-box-shadow 1s;
+  gap: 5px;
+}
+
+.Sponsors-box div:hover {
+  -webkit-box-shadow: rgba(253, 253, 253, 0.56) 0px 22px 70px 4px;
+          box-shadow: rgba(253, 253, 253, 0.56) 0px 22px 70px 4px;
+  border-radius: 30px;
+}
+
+.btn {
+  background-color: rgba(240, 248, 255, 0);
+  border: solid 1px;
+}
+
+.carousel-inner {
+  padding: 3em;
+}
+
+.section-2 {
+  margin: 2em;
+}
+
+.header {
+  background-image: url(https://images.pexels.com/photos/6781772/pexels-photo-6781772.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  background-attachment: fixed;
+  height: 500px;
+  padding-top: 12em;
+}
+
+.all {
+  height: 7em;
+  width: 20em;
+}
+
+.all h1 {
+  padding-top: 0%;
+}
+
+.p-about {
+  margin: 2em;
+  padding: 2em;
+  background-image: url(https://images.pexels.com/photos/6781771/pexels-photo-6781771.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+  background-repeat: no-repeat;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+          box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 12px;
+  background-size: cover;
+}
+
+@media screen and (max-width: 600px) {
+  .p-about {
+    margin: 1em;
+    padding: 1em;
+  }
+}
+
+.p-about .heading,
+.p-about p,
+.p-about .Mayor {
+  margin: 2em;
+  padding: 2em;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+          box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  background: rgba(255, 255, 255, 0.603);
+  border-radius: 12px;
+}
+
+@media screen and (max-width: 600px) {
+  .p-about .heading,
+  .p-about p,
+  .p-about .Mayor {
+    margin: 1em;
+    padding: 1em;
+  }
+}
+
+.p-about .Mayor {
+  text-align: left;
+  margin: 2em;
+}
+
+.p-about .Mayor img {
+  -webkit-box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+          box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 12px;
+  margin: 2em;
+  height: 450px;
+  width: 320px;
+}
+
+@media screen and (max-width: 600px) {
+  .p-about .Mayor img {
+    height: 350px;
+    width: 260px;
+    margin: 1em;
+  }
+}
+
+body {
+  margin: 0;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.row > .imges-box {
+  padding: 1em;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding: auto;
+  padding-top: 4em;
+  padding-bottom: 2em;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.726);
+}
+
+/* Modal Content */
+.modal-content {
+  position: relative;
+  background-color: white;
+  margin: auto;
+  padding: 0;
+  width: 90%;
+  max-width: 1050px;
+}
+
+/* The Close Button */
+.close {
+  color: white;
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #999;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.mySlides {
+  display: none;
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  -webkit-transition: 0.6s ease;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  -moz-user-select: none;
+   -ms-user-select: none;
+       user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+img {
+  margin-bottom: -4px;
+}
+
+.caption-container {
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.753);
+  padding: 2px 16px;
+  color: white;
+}
+
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+img.hover-shadow {
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.hover-shadow:hover {
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.39), 0 6px 20px 0 rgba(0, 0, 0, 0.349);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.39), 0 6px 20px 0 rgba(0, 0, 0, 0.349);
+}
+
+.lightBox {
+  margin: 2em;
+}
+
+.lightBox image {
+  margin-top: 2em;
+  padding-top: 2em;
+}
+
+.box-bg {
+  padding: 1em;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+          box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  background: rgba(255, 255, 255, 0.603);
+  border-radius: 12px;
+}
+
+.q {
+  margin: 2em;
+}
+
+.accordion-button:not(.collapsed) {
+  color: #9453a6;
+  background-color: #9453a662;
+}
+
+.accordion-button:focus {
+  border-color: #9453a6a6;
+  -webkit-box-shadow: 0 0 0 0.25rem #9453a681;
+          box-shadow: 0 0 0 0.25rem #9453a681;
+}
+
+.accordion-collapse {
+  background-color: #9453a636;
+  color: #9453a6cb;
+}
+
+.accordion-button {
+  background-color: #8cbf3f9a;
+  color: #9453a6;
+}
+
+.accordion {
+  -webkit-box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+          box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+.form-control {
+  -webkit-box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+          box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  background: rgba(255, 255, 255, 0.603);
+  border-radius: 12px;
+  border-color: white;
+  background-color: #9453a671;
+  color: #9453a6cb;
+}
+
+.form-control:hover {
+  color: #9453a6;
+  background-color: #9453a636;
+  border-color: #9453a6a6;
+  -webkit-box-shadow: 0 0 0 0.25rem #9453a681;
+          box-shadow: 0 0 0 0.25rem #9453a681;
+}
+
+.btn-primary:hover {
+  color: #9453a6;
+  background-color: #9453a636;
+  border-color: #9453a6a6;
+  -webkit-box-shadow: 0 0 0 0.25rem #9453a681;
+          box-shadow: 0 0 0 0.25rem #9453a681;
+}
+
+.btn-primary:focus,
+.btn-primary {
+  border-color: #9453a6a6;
+  background-color: #9453a636;
+  -webkit-box-shadow: 0 0 0 0.25rem #9453a681;
+          box-shadow: 0 0 0 0.25rem #9453a681;
+}
+
+.form-control:focus {
+  -webkit-box-shadow: 0 0 0 0.25rem #9453a681;
+          box-shadow: 0 0 0 0.25rem #9453a681;
+  border-color: #9453a6a6;
+}
+
+input.form-control::-webkit-input-placeholder,
+textarea.form-control {
+  color: transparent;
+}
+
+input.form-control:-ms-input-placeholder,
+textarea.form-control {
+  color: transparent;
+}
+
+input.form-control::-ms-input-placeholder,
+textarea.form-control {
+  color: transparent;
+}
+
+input.form-control::placeholder,
+textarea.form-control {
+  color: transparent;
+}
+
+@media screen and (max-width: 600px) {
+  .form-label {
+    display: none;
+  }
+  input.form-control::-webkit-input-placeholder,
+  textarea.form-control {
+    color: #9453a6;
+  }
+  input.form-control:-ms-input-placeholder,
+  textarea.form-control {
+    color: #9453a6;
+  }
+  input.form-control::-ms-input-placeholder,
+  textarea.form-control {
+    color: #9453a6;
+  }
+  input.form-control::placeholder,
+  textarea.form-control {
+    color: #9453a6;
+  }
+}
+
+.form-box {
+  margin: 2em;
+}
+
+.h-form {
+  padding: 10px;
+}
+
+.main {
+  margin: 2em;
+}
+
+.main div {
+  margin: 2em;
+  color: #9453a6;
+  background-color: #9453a636;
+  border-color: #9453a6a6;
+  border: 1px solid white;
+}
+
+.main .Answer {
+  text-align: left;
+}
+/*# sourceMappingURL=main.css.map */

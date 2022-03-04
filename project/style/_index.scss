@@ -1,0 +1,180 @@
+body {
+  background-color: #c4a174bb;
+  padding: 0%;
+  margin: 0%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+}
+
+.h-Sponsors {
+  padding-top: 12%;
+  font-size: 70px;
+  text-shadow: 0 1px $success, -1px 0 $secondary, -1px 2px$success,
+    -2px 1px $secondary, -2px 3px $success, -3px 2px $secondary,
+    -3px 4px $success, -4px 3px $secondary, -4px 5px $success,
+    -5px 4px $secondary, -5px 6px $success, -6px 5px $secondary,
+    -6px 7px $success, -7px 6px $secondary, -7px 8px $success,
+    -8px 7px $secondary;
+}
+
+.h-Sponsors {
+  padding-top: 5%;
+  justify-items: center;
+}
+
+.animation {
+  display: block;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  background: rgba(255, 255, 255, 0.445);
+  animation-name: LeftToRight;
+  border-radius: 12px;
+
+  // margin-left: 2em;
+  // margin-right: 30em;
+
+  animation-duration: 1.5s;
+}
+.p-2 {
+  animation-name: RightToLeft;
+  // margin-left: 30em;
+  // margin-right: 2em;
+}
+@keyframes LeftToRight {
+  0% {
+    opacity: 0.2;
+    transform: translateX(-30%);
+    background-color: $success;
+  }
+  50% {
+    opacity: 0.4;
+    transform: translateX(20%);
+    background-color: $secondary;
+    // animation-duration: 0.5s;
+  }
+  100% {
+    opacity: 0.6;
+    transform: translateX(0%);
+    // animation-duration: 0.5s;
+    background-color: $primary;
+  }
+}
+
+@keyframes RightToLeft {
+  0% {
+    opacity: 0.2;
+    transform: translateX(30%);
+    background-color: $primary;
+  }
+  50% {
+    opacity: 0.4;
+    transform: translateX(-20%);
+    background-color: $secondary;
+    // animation-duration: 0.5s;
+  }
+  100% {
+    opacity: 0.6;
+    transform: translateX(0%);
+    background-color: $success;
+    // animation-duration: 0.5s;
+  }
+}
+
+.sec {
+  background-image: url(https://static01.nyt.com/images/2020/04/12/us/00virus-neworleans-01/merlin_169528818_5d8af8ab-5274-4491-911f-765aa389c94d-superJumbo.jpg);
+  height: 880px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  animation: slider 20s ease 3ms infinite;
+  padding-top: 20em;
+}
+
+@keyframes slider {
+  0% {
+    background-image: url(https://static01.nyt.com/images/2020/04/12/us/00virus-neworleans-01/merlin_169528818_5d8af8ab-5274-4491-911f-765aa389c94d-superJumbo.jpg);
+  }
+  25% {
+    background-image: url(https://images.7news.com.au/publication/C-5382627/00bc2e98cd5397129f84805fe5dfa930f305a2e3.jpg);
+  }
+  50% {
+    background-image: url(https://www.mardigrasneworleans.com/templates/client/imagesNew/home-header1.jpg.pagespeed.ce.WQQjjRhEG-.jpg);
+  }
+  75% {
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/3/3d/KosmicFrenchmenPurpleFaceMardiGras2009.JPG);
+  }
+  100% {
+    background-image: url(https://cdn.theculturetrip.com/wp-content/uploads/2017/09/venices-carnivale-2-public-domain-pixabay-e1505377003857.jpg);
+  }
+}
+
+.box {
+  background-color: aliceblue;
+  opacity: 0.9;
+  border-radius: 5px;
+  border: solid 1px black;
+  box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000,
+    5px 5px 15px 5px rgba(0, 0, 0, 0);
+  height: 15em;
+  width: 30em;
+  h1 {
+    padding-top: 12%;
+  }
+}
+
+.Sponsors {
+  height: 300px;
+  background-color: aliceblue;
+  background-image: url(https://static01.nyt.com/images/2020/04/12/us/00virus-neworleans-01/merlin_169528818_5d8af8ab-5274-4491-911f-765aa389c94d-superJumbo.jpg);
+  background-attachment: fixed;
+}
+
+.element {
+  animation: pulse 5s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    background-color: $info;
+  }
+  25% {
+    background-color: $primary;
+  }
+  50% {
+    background-color: $success;
+  }
+  75% {
+    background-color: $secondary;
+  }
+  100% {
+    background-color: $info;
+  }
+}
+.Sponsors-box {
+  div {
+    border-radius: 30px;
+    transition: box-shadow 1s, width 1s, height 1s;
+    gap: 5px;
+
+    // width: 30em;
+    // height: 35em;
+  }
+  div:hover {
+    box-shadow: rgba(253, 253, 253, 0.56) 0px 22px 70px 4px;
+    border-radius: 30px;
+    // width: 31em;
+    // height: 36em;
+  }
+}
+.btn {
+  background-color: rgba(240, 248, 255, 0);
+  border: solid 1px;
+}
+.carousel-inner {
+  padding: 3em;
+}
+.section-2 {
+  margin: 2em;
+}
